@@ -5,9 +5,9 @@ import { ReactNode } from "react";
 import Providers from "./providers";
 
 const title =
-  "Novel – Notion-style WYSIWYG editor with AI-powered autocompletions";
+  "Skillconotes - editor with AI-powered autocompletions";
 const description =
-  "Novel is a Notion-style WYSIWYG editor with AI-powered autocompletions. Built with Tiptap, OpenAI, and Vercel AI SDK.";
+  "Skillconotes is an editor with AI-powered autocompletions. It helps you write better code faster. It's like having an extra pair of hands.";
 
 export const metadata: Metadata = {
   title,
@@ -22,7 +22,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     creator: "@steventey",
   },
-  metadataBase: new URL("https://novel.sh"),
   themeColor: "#ffffff",
 };
 
