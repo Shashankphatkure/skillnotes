@@ -4,7 +4,7 @@ import Editor from "@/ui/editor";
 export default function Page() {
   return (
     <div className="flex min-h-screen flex-col items-center sm:px-5 sm:pt-[calc(20vh)]">
-      <div className="flex space-x-4">
+      <div className="flex space-x-4 m-2">
       <button className="bg-blue-300 mt-4 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded">
   Open Docs
   </button>
