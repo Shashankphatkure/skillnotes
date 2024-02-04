@@ -3,8 +3,8 @@ import Editor from "@/ui/editor";
 
 export default function Page() {
   return (
-    <div className="flex flex-col justify-start sm:px-4">
-      <div className="flex justify-start space-x-4 m-2">
+    <>
+    <div className="flex justify-start space-x-4 m-2">
       <button className="bg-blue-400 mt-4 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"><a href="https://docs.google.com/document/u/0/" target="_blank" rel="noopener noreferrer">
     Open Docs
   </a>Open Docs</button>
@@ -18,6 +18,8 @@ export default function Page() {
     Open Docs
   </a>Open Evernote</button>
   </div>
+    <div className="flex flex-col items-center sm:px-4">
+      
       <a
         href="https://finalproject-drab.vercel.app/"
         target="_blank"
@@ -28,5 +30,6 @@ export default function Page() {
       <Menu />
       <Editor />
     </div>
+    </>
   );
 }
