@@ -4,6 +4,7 @@ import Editor from "@/ui/editor";
 export default function Page() {
   return (
     <div className="flex min-h-screen flex-col items-center sm:px-5 sm:pt-[calc(20vh)]">
+      <div className="flex space-x-4">
       <button className="bg-blue-200 mt-4 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded">
   Open Docs
   </button>
@@ -16,6 +17,7 @@ export default function Page() {
   <button className="bg-green-200 mt-4 hover:bg-green-500 text-white font-bold py-2 px-4 rounded">
   Open Evernote 
   </button>
+  </div>
       <a
         href="https://finalproject-drab.vercel.app/"
         target="_blank"
