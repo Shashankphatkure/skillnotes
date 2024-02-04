@@ -7,16 +7,16 @@ export default function Page() {
       <div className="flex justify-start space-x-4 m-2">
       <button className="bg-blue-400 mt-4 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"><a href="https://docs.google.com/document/u/0/" target="_blank" rel="noopener noreferrer">
     Open Docs
-  </a>Open Docs</button>
+  </a></button>
       <button className="bg-gray-400 mt-4 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded"><a href="https://www.notion.so/" target="_blank" rel="noopener noreferrer">
-    Open Docs
-  </a>Open Notion</button>
+    Open Notion
+  </a></button>
       <button className="bg-red-400 mt-4 hover:bg-red-600 text-white font-bold py-2 px-4 rounded"><a href="https://coda.io/workspaces/" target="_blank" rel="noopener noreferrer">
-    Open Docs
-  </a>Open Coda</button>
+    Open Coda
+  </a></button>
       <button className="bg-green-400 mt-4 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"><a href="https://www.evernote.com/client/web?login=true#/notes" target="_blank" rel="noopener noreferrer">
-    Open Docs
-  </a>Open Evernote</button>
+    Open Evernote
+  </a></button>
   </div>
       <a
         href="https://finalproject-drab.vercel.app/"
