@@ -1,25 +1,10 @@
 import Menu from "@/ui/menu";
 import Editor from "@/ui/editor";
-import { DoorClosedIcon, WholeWordIcon } from "lucide-react";
 
 export default function Page() {
   return (
     <div className="flex min-h-screen flex-col items-center sm:px-5 sm:pt-[calc(20vh)]">
-      <button
-      
-      color="primary"
-      
-    >
-      Export to Word
-    </button>
-    
-    <button
-      
-      color="primary"
-      
-    >
-      Export to Docs
-    </button>
+      <button>Help me</button>
       <a
         href="https://finalproject-drab.vercel.app/"
         target="_blank"
